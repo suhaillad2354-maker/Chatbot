@@ -2,6 +2,16 @@
   "name": "dhatchan",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://suhaillad2354-maker.github.io/Chatbot",
+  
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@google/genai": "^1.15.0",
     "@google/generative-ai": "^0.24.1",
@@ -14,15 +24,6 @@
     "react-dom": "^19.1.1",
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
-  },
-  "homepage": "https://suhaillad2354-maker.github.io/Chatbot",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
