@@ -2,7 +2,7 @@
   "name": "dhatchan",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://suhaillad2354-maker.github.io/Chatbot",
+  "homepage": "./https://suhaillad2354-maker.github.io/Chatbot",
   
   "scripts": {
     "start": "react-scripts start",
